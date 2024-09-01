@@ -6,7 +6,7 @@ def agregar_contacto(contactos):
             break
 
         # Creación del diccionario para el contacto
-        contacto = {"Nombre": nombre} #'nombre del diccionario' = {'nombre de la clave' : 'valor'}
+        contacto = {"Nombre": nombre} # 'nombre del diccionario' = {'nombre de la clave' : 'valor'}
 
 
         # Establecimiento de tipos y valores a las claves del dicionario 
@@ -55,3 +55,12 @@ for contacto in contactos: #Para '1er contacto (nombre)' en 'lista de contactos'
     print("-" * 20)
 
 #f: permite ingresar toda una cadena de caracteres (strings) y realizar la impresion de las variables dentro de los llaves ( '{}' ) 
+
+
+"""Consulta para la clase del martes 03/09:
+    * Implementacion de matrices. Donde seria mas correctamente usarlas? (por el momento, se me ocurre en cunjunto a los diccionarios)
+    * Establecer ingresos de datos por fuera de la funcion: agregar_contacto()
+    * Es la funcion suficientemente general? de que forma puede ser aplicada mas general?
+    * Metodo distinto (sugerido) para finalizar un ingreso? 
+    * Distinguir los ingresos de datos de los contactos, ej.: se quiere ingresar el numero sobre la el 'movil' comprobar que este este compuesto por: - inicio de telefono: 11  - seguido por los 8 siguientes numeros: 1234-5678. Asi con el resto de tipos de contactos
+    * Verificar si el tipo de contacto esta correctamente especificado, en caso contrario solicitarlo hasta que sea correcto"""
